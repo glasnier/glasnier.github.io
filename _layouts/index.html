@@ -1,0 +1,88 @@
+{% include header.html %}
+
+      <!-- Main jumbotron for a primary marketing message or call to action
+      <div class="jumbotron" style="background-color:#FFFFFF;background-image:url('img/xxx.jpg');background-size:cover;"> 
+      -->
+
+        <div class="container bs-docs-container">
+
+        <div class="row">
+          <div class="col-lg-1 hidden-phone"></div>
+              
+          <div class="col-lg-10">
+          
+          <div class="page-header" id="pres">
+            
+            <h1>Gilles Lasnier's homepage</h1>
+            <ul class="list-unstyled"><li>Ph.D., Distributed Realtime &amp; Embedded Systems Engineering, Model-based Engineering</li>
+            <li><em>Head of the Research <small>&amp;</small> Development and Innovation at CIELE Ing&eacute;nierie</em></li></ul>
+          </div>
+          </div>
+        </div>
+        </div>
+      
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-1 hidden-phone"></div>
+
+          <div class="col-lg-10">
+            <!--<div class="alert alert-danger alert-xs">
+              <i class="fa fa-info-sign"></i> 04/07/2014: Started a new position as <strong style="text-decoration:underline;">Head of Research <small>&amp;</small> Development</strong> at <a href="http://www.ciele.fr/langue-english-1.html" class="alert-link">CIELE Ing&eacute;nierie</a>.
+            </div>-->
+          </div>
+        </div>
+                    
+        <div class="row">
+          <div class="col-lg-1 hidden-phone"></div>
+              
+          <div class="col-lg-6">
+  
+                <p>Gilles Lasnier is currently Head of the Research <small>&amp;</small> Development branch at <a href="http://www.ciele.fr/langue-english-1.html">CIELE Ing&eacute;nierie</a>. <a href="http://www.ciele.fr/langue-english-1.html">CIELE</a> is an active startup focusing on embedded solutions based on <strong style="text-decoration:underline;">SoC FPGA and hybrid SoC FPGA/ARM architecture</strong>. <a href="http://www.ciele.fr/langue-english-1.html">CIELE</a> is located in Paris, France.</p>
+
+                <p>In 2013, he was enrolled as post-doctoral researcher in the <a href="http://www.irit.fr/torrents/toast/toast.php">Time-Oriented criticAl SysTems (TOAST)</a> project at the <a href="http://www.isae.fr/en">Institute for Space and Aeronautics Engineering (ISAE)</a> in Toulouse, France.</p>
+                
+                <p>He holds a PhD (2012) from the <a href="http://www.telecom-paristech.fr/eng/training-innovating-in-a-digital-world.html">Telecom ParisTech</a> engineering school and a Master degree in Computer Science from the <a href="http://www.upmc.fr/en/index.html">University of Pierre et Marie Curie (UPMC) - Paris VI</a>.</p>
+                
+                <p>His research interests are focused on model-driven engineering and programming languages to support the design of high-integrity systems, involving real-time embedded distributed systems and cyber-physical systems. In his research, Gilles applies and develops techniques and design methods around component-based software architecture, model transformation, code generation, co-simulation and model-based analysis.</p>
+                
+          </div> <!-- end col-lg-6 -->
+          
+          <div class="col-lg-4">
+            <div class="text-right" id="contact">
+              <p><h4>Contacts</h4></p>
+              <ul class="list-unstyled">
+                <li><small><strong>e-mail:</strong> <a href="mailto:#">gilles (dot) lasnier (at) ciele (dot) fr</a></small></li>
+                <li><small><i class="fa fa-phone"></i> +33 (0) 1 43 39 44 41 | <i class="fa fa-skype"></i> gilles (dot) lasnier</small></li>
+                <li><small><i class="fa fa-envelope"></i> <a href="http://www.ciele.fr/langue-english-1.html">CIELE Ing&eacute;nierie</a>, 135 chemins des bassins</small></li>
+                <li><small>94000, Créteil</small></li>
+              </ul>
+            </div>
+
+            <div class="text-right" id="latestResearchNews">
+              <h4>Latest News <a href="{{ site.url }}/blog/feeds/feed.xml"><img src="{{ site.url }}/img/feed-icon.svg" alt="Atom feed" width="18px" title="Research News feed"></a></h4>
+
+              <ul class="list-unstyled">
+                {% for post in site.posts limit: 5 %} <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%m/%d/%Y" }})</small> </li> {% endfor %}
+                <li><small><a href="{{ site.url }}/blog">READ MORE <i class="fa fa-angle-right"></i></a></small></li>
+              </ul>
+
+              <h4>Social <small>&amp;</small> Research</h4>
+
+              <ul class="list-inline">
+                <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/l/Lasnier:Gilles"><img src="{{ site.url }}/img/dblp-icon.png" alt="" width="28px" title="dblp"></a></li>
+                <li class="muted"><small>&middot;</small></li>
+                <li><a href="http://scholar.google.fr/citations?user=6CZnz1kAAAAJ&hl=en"><img src="{{ site.url }}/img/gs-logo.svg" width="48px"></a><li>
+                <li class="muted"><small>&middot;</small></li>
+                <li><a href="http://www.researchgate.net/profile/Gilles_Lasnier/"><img src="{{ site.url }}/img/rg-icon.png" width="28px"></a></li>
+                <li class="muted"><small>&middot;</small></li>
+                <li><a href="http://academic.research.microsoft.com/Author/3824439"><img src="{{ site.url }}/img/mas-icon.png" width="28px"></a></li>
+              </ul>
+            </div>
+          </div> <!-- end col-lg-4 -->
+        </div> <!-- end row -->
+        
+        <div id="push"><!-- Leave this element empty --></div>
+      </div> <!-- end container principal -->
+
+{% include footer.html %}

@@ -1,0 +1,18 @@
+name: "Gilles Lasnier"
+description: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Systems"
+title: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Systems"
+keywords: "Gilles Lasnier, ISAE, SUPAERO, TELECOM, ParisTech, Telecom-ParisTech, ENST, Ada, Ada83, Ada95, Ada2005, real-time, distributed, ocarina, polyorb-hi, aadl, behavior, annex, aadlv2, osate2, model, transformation, eclipse, atl, emf, rcp, aadl-mbt, aadl-mt, aadl-code generator, HLA, certi, ptolemy, ptolemyII, co-simulation, simulation"
+
+blog-name: "Blog"
+
+url: "http://www.gilleslasnier.com"
+
+paginate: 10
+
+markdown: rdiscount
+permalink: /blog/:year/:month/:day/:title/
+pygments: true
+
+exclude: [Makefile, README]
+
+excerpt_separator: <!--more-->  # the seperator

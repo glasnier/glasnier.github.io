@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:10px 20px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight:500;
+  color:#000;
+}
+
+h1.blog-css { padding: 0 0 25px 0; }
+
+h2.blog-css { font-size:22px; line-height: 28px; }
+
+p.blog-css { margin: 0 0 10px 0; font-size:12px; line-height: 16px; }
+
+img.blog-css { margin: 10px 0 5px 10px; }
+
+div.blog-css {
+  margin: 10px 0; 
+  padding: 5px 10px 0px 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+ }
+
+.blog-css ul li { list-style: none; margin-left: -5px; margin-top: 3px; }
+
+.settop { margin-top: 5px; margin-bottom: 5px; }
+
+.blog-css a:hover {
+  border-bottom: 1px dashed #999;
+  text-decoration: none; 
+}

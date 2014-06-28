@@ -1,0 +1,53 @@
+{% include header.html %}
+
+<div class="container">
+
+<div class="row">
+  <div class="col-lg-1 hidden-phone"></div>
+
+  <div class="col-lg-10">
+
+    <div class="page-header" id="post">
+      <p>{{ site.blog-name }} <i class="fa fa-angle-double-right"></i> <a href="{{ site.url }}/blog/categories/" alt="All 'categories'">categories</a> <i class="fa fa-angle-double-right"></i> <a href="{{ site.url }}/blog/categories/{{ page.category }} " alt="All posts categorized as {{ page.category}}">{{ page.category }}</a></p>
+
+      <h3>{{ page.title }}</h3>
+      
+    </div>
+  
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-1 hidden-phone"></div>
+
+  <div class="col-lg-6">
+    <p class="text-left"><small><i class="fa fa-calendar"></i> Published on <strong>{{ page.date | date_to_long_string }}</strong> by {{ page.author }}</small></p>
+    
+    {{ content }}
+  
+  </div>
+  <div class="col-lg-4 text-right">
+    <div class="" id="thePostTags">
+      <h4 class="awesome-css"><i class="fa fa-tags"></i> Tags</h4>
+      <ul class="list-inline">
+        {% for tag in page.tag limit: 20 %}
+          <li>
+            <a class="label label-default label-xs" href="{{ site.url }}/blog/tags/{{ tag }}">#{{ tag }} 
+            {% for idxtag in site.tags %} {% if idxtag[0] == tag %} <sup>{{ idxtag[1].size }}</sup> {% endif %} {% endfor %}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    
+      <h4>Latest News <a href="{{ site.url }}/blog/feeds/feed-research.xml"><img src="{{ site.url }}/img/feed-icon.svg" alt="Atom feed" width="18px" title="Research News feed"></a></h4>
+
+      <ul class="list-unstyled"> {% for post in site.posts limit: 10 %} 
+        <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{ post.date | date: "%m/%d/%Y" }})</small></li>
+      {% endfor %} </ul>
+     </div> 
+  </div>
+</div>
+
+</div>
+
+{% include footer.html %}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="eng">
+  
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <title>{{ page.title }}</title>
+    
+    <meta name="keywords" content="{{ site.keywords }}" />
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.name }}" />
+
+    <!-- Widow at screen size -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Integration of CSS  -->
+    <link href="{{ site.url }}/assets/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <link href="{{ site.url }}/assets/css/bootstrap-responsive.min.css" rel="stylesheet" />
+    <link href="{{ site.url }}/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="{{ site.url }}/assets/css/publications.css" rel="stylesheet" />
+    <link href="{{ site.url }}/assets/css/awesome-css.css" rel="stylesheet" />
+
+    <link href="{{ site.url }}/assets/css/sticky-footer-navbar.css" rel="stylesheet" />
+    
+    <link href="{{ site.url }}/assets/css/jumbotron.css" rel="stylesheet" />
+
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="icon" type="image/gif" href="animated_favicon1.gif" />
+    
+    
+    <!-- Smooth scrolling to an anchor on the same page -->
+    <script>
+      function goToByScroll(id){$('html,body').animate({scrollTop: $("#"+id).offset().top-50},'slow');}
+    </script>
+          
+    <script type="text/javascript">
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            
+            ga('create', 'UA-43430830-1', 'gilleslasnier.com');
+            ga('send', 'pageview');
+            
+     </script>
+  </head>
+  
+  <body>
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+      
+      <!-- Navigation bar -->
+      <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+
+          <div class="navbar-header">            
+            <!-- Button for mobil resolution and mobile navigation -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            
+            <a class="navbar-brand" href="http://www.gilleslasnier.com"><small>gilleslasnier.com</small></a>
+          </div> <!-- end navbar-header -->
+          
+          <!-- Navbar items -->
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav nav-bar-inverse">
+              <li class="active"><a href="{{ site.url }}/"><small><i class="fa fa-home"></i> Home</small></a></li>
+              <li class=""><a href="{{ site.url }}/research/"><i class="fa fa-search"></i><small> Research</small></a></li>
+              <li class="disabled"><a href="#"><i class="fa fa-tumblr-square"></i><small> Teaching</small></a></li>
+              <li><a href="{{ site.url }}/blog/"><i class="fa fa-pencil-square-o"></i><small> Blog</small></a></li>
+              
+              <!-- Menu dropdown -->
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-link"></i><small> ClickMe<b class="caret"></b></small></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header">Research</li>
+                  <li><a href="http://www.informatik.uni-trier.de/~ley/pers/hd/l/Lasnier:Gilles">dblp</a></li>
+                  <li><a href="http://scholar.google.fr/citations?user=6CZnz1kAAAAJ&hl=en">Google Scholar</a></li>
+                  <li><a href="http://www.researchgate.net/profile/Gilles_Lasnier/">Research Gate</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Projects</li>
+                  <li><a href="http://www.aadl.info/aadl/currentsite/">AADL@SEI/SAE</a></li>
+                  <li><a href="http://aadl.enst.fr/ocarina/">Ocarina</a></li>
+                  <li><a href="http://penelope.enst.fr/aadl/wiki/Projects">AADL@Telecom-ParisTech</a></li>
+                  <li><a href="http://beru.univ-brest.fr/~singhoff/cheddar/">Cheddar</a></li>
+                  <li><a href="http://ptolemy.eecs.berkeley.edu/">Ptolemy</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Network/Career</li>
+                  <li><a href="http://www.linkedin.com/in/glasnier"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+                  <li><a href="https://plus.google.com/103102146517061022833/posts"><i class="fa fa-google-plus"></i> Google+</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Development</li>
+                  <li><a href="https://github.com/glasnier"><i class="fa fa-github"></i> GitHub</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div> <!--/.navbar-collapse -->
+        </div> <!-- end container -->
+      </div> <!-- end navbar -->
