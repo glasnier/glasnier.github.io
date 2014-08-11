@@ -79,3 +79,13 @@ layout: default
       </ul>
   </div>
 </div>
+<div class="row">
+  <div class="col-lg-1 hidden-phone"></div>
+
+  <div class="col-lg-3">
+    <h4>Comments</h4>
+      <ul>
+        <li><a href="https://disqus.com">Disqus</a></li>
+      </ul>
+  </div>  
+</div>
