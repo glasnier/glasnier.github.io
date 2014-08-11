@@ -75,7 +75,7 @@ layout: default
         <li>Hosted by <a href="">OVH</a></li>
         <li>File editor <a href="http://www.gnu.org/software/emacs/">Emacs</a></li>
         <li>MacOSX FTP client <a href=http://cyberduck.ch/>Cyberduck</a></li>
-        <li>Linux FTP client <a href="https://filezilla-project.org/">FileZlila</li>
+        <li>Linux FTP client <a href="https://filezilla-project.org/">FileZlila</a></li>
       </ul>
   </div>
 </div>
