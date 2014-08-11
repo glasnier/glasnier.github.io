@@ -14,3 +14,5 @@ permalink: /blog/:year/:month/:day/:title/
 pygments: true
 
 exclude: [Makefile, README]
+
+excerpt_separator: <!--more-->  # the seperator
