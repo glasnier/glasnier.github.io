@@ -5,13 +5,13 @@ keywords: "Gilles Lasnier, ISAE, SUPAERO, TELECOM, ParisTech, Telecom-ParisTech,
 
 blog-name: "Blog"
 
-url: "http://www.gilleslasnier.com"
+url: "http://gilleslasnier.com"
 
 paginate: 10
 
 markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title/
-pygments: true
+highlighter: pygments
 
 exclude: [Makefile, README, README.md, CNAME]
 
