@@ -14,4 +14,4 @@ release:
 	echo "The website has been built in _site/ for release use"
 
 clean:
-	rm -rf *~
+	rm -rf *~ _site
