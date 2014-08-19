@@ -13,7 +13,7 @@ markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title/
 pygments: true
 
-exclude: [Makefile, README]
+exclude: [Makefile, README, README.md, CNAME]
 
 excerpt_separator: <!--more-->  # the separator
 

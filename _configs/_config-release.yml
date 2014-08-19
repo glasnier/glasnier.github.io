@@ -11,8 +11,8 @@ paginate: 10
 
 markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title/
-pygments: true
+highlighter: pygments
 
-exclude: [Makefile, README]
+exclude: [Makefile, README, README.md, CNAME]
 
 excerpt_separator: <!--more-->  # the seperator
