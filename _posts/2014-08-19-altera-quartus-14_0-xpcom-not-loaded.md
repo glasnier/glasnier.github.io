@@ -16,24 +16,21 @@ When clicking on one of the options provided by the **Web Licence Update** inter
 
 If you launch Quartus from a **Terminal** you may be able to see the following error message:
 
-`gil@ciele974:~$ quartus --64bit
-XPCOMGlueLoad error for file /usr/lib/firefox/libxul.so:
-/home/gil/workstation/altera/14.0/quartus/linux64/libstdc++.so.6: version 'GLIBCXX_3.4.15' not found (required by /usr/lib/firefox/libxul.so)
-Couldn't load XPCOM.`
+`    gil@ciele:~$ quartus --64bit
+    XPCOMGlueLoad error for file /usr/lib/firefox/libxul.so: /home/gil/workstation/altera/14.0/quartus/linux64/libstdc++.so.6: version 'GLIBCXX_3.4.15' not found (required by /usr/lib/firefox/libxul.so)
+    Couldn't load XPCOM.`
 
 Mainly, the reason is that your system has a more up-to-date *Glibc* lib than the one provided by Quartus at `altera/quartus/14.0/linux64`.
 
 You can check your system and see that the *GLIBCXX_3.4.15* lib is present by using: 
 
-`strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX`
+`gil@ciele:~$ strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX`
 
 One quick fix is to replace the one used by Quartus by the one coming from your system:
 
-`cd altera/quartus/14.0/linux64`
-
-`mv libstdc++.so.6 libstdc++.so.6.orig`
-
-`ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libstdc++.so.6`
+`    gil@ciele:~$ cd altera/quartus/14.0/linux64
+    gil@ciele:~$ mv libstdc++.so.6 libstdc++.so.6.orig
+    gil@ciele:~$ ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6 libstdc++.so.6`
 
 Then relaunch your Quartus and access to the Altera's website licence page using the **Licences Setup** tool.
 
@@ -43,3 +40,20 @@ Dependencies:
 * tool: Quartus 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
 * host: Ubuntu 14.04 64bits (x86_64)
 * web browser: Firefox
+
+{% highlight python %}
+:::python
+def hello():
+    print "Hello, World!"
+{% endhighlight %}
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
+```python
+def yourfunction():
+     print "Hello World!"
+```
