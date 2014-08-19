@@ -1,7 +1,7 @@
 name: "Gilles Lasnier"
 description: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Systems"
 title: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Systems"
-keywords: "Gilles Lasnier, ISAE, SUPAERO, TELECOM, ParisTech, Telecom-ParisTech, ENST, Ada, Ada83, Ada95, Ada2005, real-time, distributed, ocarina, polyorb-hi, aadl, behavior, annex, aadlv2, osate2, model, transformation, eclipse, atl, emf, rcp, aadl-mbt, aadl-mt, aadl-code generator, HLA, certi, ptolemy, ptolemyII, co-simulation, simulation"
+keywords: "Gilles Lasnier, Ciele, ARM, SocFPGA, FPGA, Cyclone, compiler, Altera, Quartus, ISAE, SUPAERO, TELECOM, ParisTech, Telecom-ParisTech, ENST, Ada, Ada95, Ada2005, real-time, distributed, ocarina, polyorb-hi, aadl, behavior, annex, aadlv2, osate2, model, transformation, eclipse, atl, emf, aadl-mt, HLA, certi, ptolemyII, co-simulation, simulation"
 
 blog-name: "Blog"
 
@@ -11,7 +11,7 @@ paginate: 10
 
 markdown: rdiscount
 permalink: /blog/:year/:month/:day/:title/
-pygments: true
+highlighter: pygments
 
 exclude: [Makefile, README, README.md, CNAME]
 
