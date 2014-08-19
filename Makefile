@@ -1,8 +1,12 @@
 
-all: build
+all: local
 
-build: 
+git: 
 	jekyll build
+	echo "The website has been built in _site/ for git use"
+
+local: 
+	jekyll build --config _configs/_config-local.yml
 	echo "The website has been built in _site/ for local use"
 
 release: 
