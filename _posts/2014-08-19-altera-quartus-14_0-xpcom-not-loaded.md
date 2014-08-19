@@ -8,7 +8,7 @@ tag: [altera, quartus, fpga, ubuntu, x86_64, firefox]
 author: Gilles Lasnier
 ---
 
-The [ALTERA Quartus 14.0](http://www.altera.com/products/software/sfw-index.jsp) has been released since two months now. If you have upgraded your environment and if you're using a recent **Ubuntu 64 bits** host (for example ubuntu *13.10* or *14.04*) and **Firefox** as web browser, you may issue an error when using the **Licences Setup** tool provided by Quartus.
+The [ALTERA Quartus 14.0](http://www.altera.com/products/software/sfw-index.jsp) has been released since two months now. If you have upgraded your environment and if you're using a recent **Ubuntu 64 bits** host (for example ubuntu *13.10* or *14.04*) and **Firefox** as web browser, you may issue an error when using the **Licences Setup** tool<!--more--> provided by Quartus.
 
 When clicking on one of the options provided by the **Web Licence Update** interface, nothing will happen even if Quartus has displayed the following message on the system console: 
 
