@@ -12,7 +12,7 @@ author: Gilles Lasnier
 <a href="http://www.enova-event.com">ENOVA 2015</a> event which is going to be 
 held in Paris at September, 22-24, 2015. We will be pleased to welcome you and 
 to show you our lastest Innovation and Research & Development projects at our 
-booth A51.
+booth A51<!--more-->.
 
 We will also present our new partnership with <a href="http://www.micronique.fr">Micronique</a>,
 an electronic card manufacturer.
