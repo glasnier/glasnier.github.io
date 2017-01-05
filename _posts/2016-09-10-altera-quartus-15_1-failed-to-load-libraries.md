@@ -11,7 +11,7 @@ author: Gilles Lasnier
 If you are using the [ALTERA QuartusII 15.1.2](http://www.altera.com/products/software/sfw-index.jsp) from a **Terminal** (command line) with an upgraded environment based on **Ubuntu *16.04 LTS* you may notice some missing libraries:
 
 {% highlight console %}
-gil@ciele:~$$ quartus
+gil@ciele:~$ quartus
 /media/gil/ciele-hdd/tools/altera-install/15.1/quartus/linux64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /usr/lib/x86_64-linux-gnu/libproxy.so.1)
 Failed to load module: /usr/lib/x86_64-linux-gnu/gio/modules/libgiolibproxy.so
 Inconsistency detected by ld.so: dl-close.c: 811: _dl_close: Assertion `map->l_init_called' failed!
