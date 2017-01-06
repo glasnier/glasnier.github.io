@@ -8,7 +8,7 @@ tag: [altera, quartus, fpga, ubuntu, xenial, x86_64]
 author: Gilles Lasnier
 ---
 
-If you are using the [ALTERA QuartusII 15.1.2](http://www.altera.com/products/software/sfw-index.jsp) from a **Terminal** (command line) with an upgraded environment based on **Ubuntu *16.04 LTS* you may notice some missing libraries:
+If you are using the [ALTERA QuartusII 15.1.2](http://www.altera.com/products/software/sfw-index.jsp) from a **Terminal** (command line) with an upgraded environment based on **Ubuntu *16.04 LTS* you may notice some missing libraries<!--more-->:
 
 {% highlight console %}
 gil@ciele:~$ quartus
