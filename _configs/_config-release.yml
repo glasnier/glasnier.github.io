@@ -17,3 +17,6 @@ highlighter: pygments
 exclude: [Makefile, README, README.md, CNAME]
 
 excerpt_separator: <!--more-->  # the seperator
+
+# gems
+gems: [jekyll-paginate]

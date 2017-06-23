@@ -3,10 +3,13 @@ description: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Sy
 title: "Gilles Lasnier's homepage | Distributed Realtime &amp; Embedded Systems"
 keywords: "Gilles Lasnier, Ciele, ARM, SocFPGA, FPGA, Cyclone, compiler, Altera, Quartus, ISAE, SUPAERO, TELECOM, ParisTech, Telecom-ParisTech, ENST, Ada, Ada95, Ada2005, real-time, distributed, ocarina, polyorb-hi, aadl, behavior, annex, aadlv2, osate2, model, transformation, eclipse, atl, emf, aadl-mt, HLA, certi, ptolemyII, co-simulation, simulation"
 
+author: Gilles Lasnier
+
 blog-name: "Blog"
 
 url: "http://localhost:4000"
 
+gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "/blog/page:num/"
 
@@ -17,3 +20,8 @@ highlighter: pygments
 exclude: [Makefile, README, README.md, CNAME]
 
 excerpt_separator: <!--more-->  # the seperator
+
+future: true
+
+# gems
+gems: [jekyll-paginate]

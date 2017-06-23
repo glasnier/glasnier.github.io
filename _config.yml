@@ -18,3 +18,5 @@ exclude: [Makefile, README, README.md, CNAME]
 
 excerpt_separator: <!--more-->  # the separator
 
+# gems
+gems: [jekyll-paginate]
