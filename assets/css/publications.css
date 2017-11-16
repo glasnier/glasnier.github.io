@@ -1,10 +1,10 @@
-.bib-links a { 
+.bib-links a {
   padding: 2px 4px;
   margin-left: 10px;
   color: #0088cc;
   text-decoration: none;
   background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;                
+  border: 1px solid #e1e1e8;
   font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
   font-size: 12px;
   -webkit-border-radius: 3px;
@@ -12,48 +12,48 @@
           border-radius: 3px;
 }
 
-.bib-links a:hover { 
+.bib-links a:hover {
   color: #005580;
   text-decoration: underline;
 }
 
-.bib-entry span {  
+.bib-entry span {
   display: block;
   margin-left: 10px;
 }
 
-span.bib-title { 
+span.bib-title {
   font-weight: bold;
   display: inline;
 }
 
-.bib-title[lang="fr"] { 
-  background-image: url('http://gilleslasnier.com/img/fr_small.png');
+.bib-title[lang="fr"] {
+  background-image: url('https://gilleslasnier.com/img/fr_small.png');
   background-repeat: no-repeat;
   background-position: right;
   padding-right: 22px;
 }
 
-.bib-title[lang="en"] { 
-  background-image: url('http://gilleslasnier.com/img/us_small.png');
+.bib-title[lang="en"] {
+  background-image: url('https://gilleslasnier.com/img/us_small.png');
   background-repeat: no-repeat;
   background-position: right;
   padding-right: 22px;
 
 }
 
-li.bib-entry { 
+li.bib-entry {
   margin-bottom: 10px;
 }
 
-ul.bib-list { 
-  list-style: none; 
+ul.bib-list {
+  list-style: none;
   margin-bottom: 20px;
 }
 
 span.bib-invisible { display:none; }
 
-span.bib-type { 
+span.bib-type {
   font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
@@ -73,34 +73,34 @@ span.bib-type {
   float: right;
 }
 
-span.bib-type:hover 
+span.bib-type:hover
 {  background-color: #999999 ; }
 
 span.bib-type a { color: #ffffff; }
 
 span.article-international-committee,
 span.article-national-committee,
-span.articles { 
-  background-color: #CE807F; 
+span.articles {
+  background-color: #CE807F;
 }
 
 span.article-international-committee:hover,
 span.article-national-committee:hover,
-span.articles:hover { 
+span.articles:hover {
   background-color: #b94a48;
 }
 
 span.incollection,
 span.book,
 span.books,
-span.invited-conf { 
-  background-color: #75ABC6; 
+span.invited-conf {
+  background-color: #75ABC6;
 }
 
 span.incollection:hover,
 span.book:hover,
 span.books:hover,
-span.invited-conf:hover { 
+span.invited-conf:hover {
   background-color: #3a87ad;
 }
 
@@ -108,39 +108,39 @@ span.patent,
 span.article-editorial,
 span.proceedings-workshop,
 span.editorials,
-span.proceedings { 
-  background-color: #7EAC7E; 
+span.proceedings {
+  background-color: #7EAC7E;
 }
 
 span.patent:hover,
 span.article-editorial:hover,
 span.proceedings-workshop:hover,
 span.editorials:hover,
-span.proceedings:hover { 
+span.proceedings:hover {
   background-color: #468847;
 }
 
 ul.bib-years { list-style:none }
 ul.bib-years li { display: inline;   background-color: #f7f7f9;
-  border: 1px solid #e1e1e8;                
+  border: 1px solid #e1e1e8;
  }
 
-section.bib-section { 
-  padding-top: 50px; 
+section.bib-section {
+  padding-top: 50px;
 }
 
-ul.nav-bib-pub-by-type, ul.nav-bib-non-research-pubs { 
-  list-style:none; 
-  margin: 0px; 
+ul.nav-bib-pub-by-type, ul.nav-bib-non-research-pubs {
+  list-style:none;
+  margin: 0px;
   text-align: center;
 }
-ul.nav-bib-pub-by-type li, ul.nav-bib-non-research-pubs li { 
-  display: inline;   
+ul.nav-bib-pub-by-type li, ul.nav-bib-non-research-pubs li {
+  display: inline;
   line-height: 22px;
  }
 
 ul.nav-bib-pub-by-type li a,
-ul.nav-bib-non-research-pubs li a { 
+ul.nav-bib-non-research-pubs li a {
   font-size: 11.844px;
   line-height: 14px;
   font-weight: bold;
@@ -165,23 +165,23 @@ ul.nav-bib-non-research-pubs li.active a, ul.nav-bib-non-research-pubs li a:hove
 }
 
 
-ul.nav-bib-pub-by-type li a[href="#pub-articles"] { 
+ul.nav-bib-pub-by-type li a[href="#pub-articles"] {
   background-color: #CE807F;
  }
 
-ul.nav-bib-pub-by-type li a[href="#pub-articles"]:hover, 
-ul.nav-bib-pub-by-type li.active a[href="#pub-articles"] { 
+ul.nav-bib-pub-by-type li a[href="#pub-articles"]:hover,
+ul.nav-bib-pub-by-type li.active a[href="#pub-articles"] {
   background-color: #b94a48;
  }
 
 ul.nav-bib-pub-by-type li a[href="#pub-books"], ul.nav-bib-pub-by-type li a[href="#pub-chapters"], 
-ul.nav-bib-pub-by-type li a[href="#invited-conf-pub"] { 
+ul.nav-bib-pub-by-type li a[href="#invited-conf-pub"] {
   background-color: #75ABC6;
  }
 ul.nav-bib-pub-by-type li a[href="#pub-books"]:hover, ul.nav-bib-pub-by-type li a[href="#pub-chapters"]:hover, 
 ul.nav-bib-pub-by-type li a[href="#pub-invited-conf"]:hover,
 ul.nav-bib-pub-by-type li.active a[href="#pub-books"], ul.nav-bib-pub-by-type li.active a[href="#pub-chapters"],
-ul.nav-bib-pub-by-type li.active a[href="#pub-invited-conf"] { 
+ul.nav-bib-pub-by-type li.active a[href="#pub-invited-conf"] {
   background-color: #3a87ad;
  }
 
@@ -193,25 +193,25 @@ ul.nav-bib-pub-by-type li.active a[href="#pub-editorials"], ul.nav-bib-pub-by-ty
   background-color: #468847;
  }
 
-ul.nav-bib-pub-by-year { 
-  list-style:none; 
-  margin: 0px; 
+ul.nav-bib-pub-by-year {
+  list-style:none;
+  margin: 0px;
   text-align: center;
 }
 
-ul.nav-bib-pub-by-year li { 
-  display: inline;   
+ul.nav-bib-pub-by-year li {
+  display: inline;
   line-height: 24px;
  }
 
-ul.nav-bib-pub-by-year li.active a { 
+ul.nav-bib-pub-by-year li.active a {
   background-color: white;
   border: none;
   padding: 1px 5px 2px;
  }
 
-ul.nav-bib-pub-by-year li a { 
-  display: inline;   
+ul.nav-bib-pub-by-year li a {
+  display: inline;
   font-size: 11.844px;
   font-weight: bold;
   line-height: 14px;
@@ -234,14 +234,14 @@ ul.nav-bib-pub-by-year li a {
           transition: all 0.2s ease-in-out;
 }
 
-ul.nav-bib-pub-by-year li a:hover {   
+ul.nav-bib-pub-by-year li a:hover {
   border-color: #0088cc;
   -webkit-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
      -moz-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
           box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
  }
 
-span.bib-badge-year { 
+span.bib-badge-year {
   font-size: 11.844px;
   font-weight: bold;
   background-color: #f7f7f9;
@@ -263,7 +263,7 @@ span.bib-badge-year {
           transition: all 0.2s ease-in-out;
 }
 
-span.bib-badge-year:hover { 
+span.bib-badge-year:hover {
   border-color: #0088cc;
   -webkit-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
      -moz-box-shadow: 0 1px 3px rgba(0, 105, 214, 0.25);
